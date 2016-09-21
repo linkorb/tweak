@@ -1,0 +1,27 @@
+
+{
+    "name": "linkorb/tweak",
+    "description": "Tweak: Define and manage settings in your application",
+    "keywords": ["setting", "feature toggle", "tweak", "toggle", "switch", "feature flags", "config", "linkorb"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+            "homepage": "http://www.linkorb.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/linkorb/tweak/issues"
+    },
+    "require": {
+        "symfony/yaml": "~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tweak\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+---
+# This file contains the setting definitions (not the action setting values themselves)
+login.enabled:
+    description: Defines if users are allowed to login
+    details: Without this option it's not possible for users to login
+    type: boolean
+    default: false
+
+logo.color:
+    description: defines the logo color
+    type: select
+    default: "#008000"
+    options:
+        -
+            value: "#800000"
+            label: Red
+        -
+            value: "#008000"
+            label: Green
+        -
+            value: "#000080"
+            label: Blue
